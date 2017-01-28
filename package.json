@@ -1,0 +1,33 @@
+{
+  "name": "weekend_challenge_04",
+  "version": "1.0.0",
+  "description": "to-do-app for prime weekend challenge using node express and sql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyg4732/to-do-app.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "express",
+    "sql",
+    "prime"
+  ],
+  "author": "priscillayg23@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pyg4732/to-do-app/issues"
+  },
+  "homepage": "https://github.com/pyg4732/to-do-app#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "jquery": "^3.1.1",
+    "pg": "^6.1.2"
+  }
+}
