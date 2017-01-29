@@ -1,16 +1,19 @@
 TO-DO
+************
 
-Set-up
+Set-up-->>>
 [X]Create a github repo
-******
 [X]mkdir weekend_challenge_04
-******
 [X]Create files and folders
-******
 [X]npm init this shit
-******
-[ ]set up database
-******
-[ ]create a table
-******
-[ ]link dom<->client<->server<->DB
+[X]set up database
+[X]create a table
+[X]link dom<->client<->server<->DB
+
+**************
+Logic--->>>>
+
+Create a task function
+Store in DB
+Option to complete task
+Option to delete task
