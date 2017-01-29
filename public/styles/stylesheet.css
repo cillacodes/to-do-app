@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(45deg, #43cea2, #185a9d);
+  background-repeat: no-repeat;
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+}
+
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.taskContainer {
+  margin: 5% 25% 5% 25%;
+  box-shadow: 0 0 15px #e6e6e6;
+}
+
+h1 {
+  text-align: center;
+}
+
+#insertTask {
+  width: 100%;
+  padding: 20px;
+  font-size: 12px;
+  letter-spacing: .5px;
+  box-sizing: border-box;
+  margin: 0;
+  border: 0px solid #008CBA;
+}
+
+#submit {
+  background-color: #777982;
+  border: 0px solid #008CBA;
+  width: 100%;
+  height: 60px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #677077;
+  transition-duration: 0.4s;
+}
+
+#submit:hover {
+  background-color: #f2b632;
+  color: white;
+}
