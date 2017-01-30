@@ -43,6 +43,24 @@ h1 {
 }
 
 #submit:hover {
-  background-color: #f2b632;
+  background-color: #f9742c;
+  /*background-color: #ed671e;*/
+  /*background-color: #f2b632;*/
   color: white;
+}
+
+ul {
+  list-style-type: none;
+  max-width: 100%;
+}
+
+#taskList {
+  padding: 20px;
+  font-size: 20px;
+  /*max-width: 100%;*/
+  border-bottom: 1px solid #b5b5b7;
+  color: #677077;
+  width: 100%;
+  height: 60px;
+  font-size: 24px;
 }

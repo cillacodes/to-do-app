@@ -9,18 +9,20 @@
     <script src="/scripts/client.js"></script>
   </head>
   <body>
-    <main class="taskContainer">
+    <main class="taskContainer flex-box">
       <div id="taskInput">
         <h1>To-Do</h1>
+        <form id="taskForm">
         <span><input style="text-transform: uppercase" id="insertTask" type="text" name="insertTask" value=" " placeholder="Add a new task!"></span><br>
-        <button id="submit" name="submitButton">+</button>
+        <button id="submit" name="submitButton">Submit</button>
+        </form>
       </div>
 
-      <div id="taskOutput">
-        <!-- <ul>
-          <li></li>
-        </ul> -->
-      </div>
+      <!-- <div id="taskList"> -->
+        <ul id="taskList">
+
+        </ul>
+      <!-- </div> -->
 
     </main>
   </body>
